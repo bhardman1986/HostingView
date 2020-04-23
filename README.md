@@ -6,7 +6,7 @@ A UIView subclass to quickly use a SwiftUI View.
 ```swift
 lazy var title: HostingView = {
   return HostingView {
-    Text("Hello"
+    Text("Hello")
   }
 }()
 ```
