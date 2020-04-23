@@ -1,9 +1,7 @@
 //
 //  HostingView.swift
-//  Materials
 //
 //  Created by Bret Hardman on 4/21/20.
-//  Copyright © 2020 Bret Hardman. All rights reserved.
 //
 
 import Foundation
