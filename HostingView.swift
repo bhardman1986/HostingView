@@ -34,8 +34,10 @@ public class HostingView: UIView {
         let child = UIHostingController(rootView: content)
         let subview = child.view!
         subview.backgroundColor = .clear
-                
-        addSubview(subview, constraints: [
+        subview.translatesAutoresizingMaskIntoConstraints = false
+        
+        addSubview(subview)
+        addConstraints([
             subview.leadingAnchor.constraint(equalTo: leadingAnchor),
             subview.topAnchor.constraint(equalTo: topAnchor),
             subview.trailingAnchor.constraint(equalTo: trailingAnchor),
