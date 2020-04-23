@@ -11,4 +11,4 @@ lazy var title: HostingView = {
 }()
 ```
 
-Then simply add the subview and add constraints to the parent view.
+Then simply add the subview and constraints to the parent view.
